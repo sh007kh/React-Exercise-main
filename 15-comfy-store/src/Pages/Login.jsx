@@ -23,9 +23,21 @@ const Login = () => {
         <div className="mt-4">
           <SubmitBtn text="login" />
         </div>
-        <button type="button" className="btn btn-neutral btn-outline">
-          <Link to="/Register">Register</Link>
+        <button
+          type="button"
+          className="btn btn-secondary btn-block text-xl capitalize"
+        >
+          geust user
         </button>
+        <p className="text-center capitalize">
+          not a member yet?{" "}
+          <Link
+            to="/Register"
+            className="capitalize ml-2 link link-hover link-primary "
+          >
+            Register
+          </Link>
+        </p>
       </Form>
     </section>
   );
