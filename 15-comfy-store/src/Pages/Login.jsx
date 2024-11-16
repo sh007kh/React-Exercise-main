@@ -27,7 +27,7 @@ const Login = () => {
           type="button"
           className="btn btn-secondary btn-block text-xl capitalize"
         >
-          geust user
+          guest user
         </button>
         <p className="text-center capitalize">
           not a member yet?{" "}
