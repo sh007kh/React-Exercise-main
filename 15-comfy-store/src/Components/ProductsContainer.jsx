@@ -48,8 +48,6 @@ const ProductsContainer = () => {
         ) : (
           <ProductsList />
         )}
-        <ProductsGrid />
-        <ProductsList />
       </div>
     </>
   );
