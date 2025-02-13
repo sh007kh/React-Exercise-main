@@ -20,9 +20,19 @@ const Cart = () => {
         <div className="lg:col-span-4 lg:pl-4">
           <CartTotals />
           {user ? (
-            <Link to="/checkout">proceed to checkout</Link>
+            <Link
+              to="/checkout"
+              className="capitalize btn btn-block btn-primary mt-8"
+            >
+              proceed to checkout
+            </Link>
           ) : (
-            <Link to="/login">please login first</Link>
+            <Link
+              to="/login"
+              className="capitalize btn btn-block btn-primary mt-8"
+            >
+              please login first
+            </Link>
           )}
         </div>
       </div>
