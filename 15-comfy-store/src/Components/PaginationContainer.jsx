@@ -6,7 +6,7 @@ const PaginationContainer = () => {
   const { search, pathname } = useLocation();
   const navigate = useNavigate();
   const searchParams = new URLSearchParams(search);
-  console.log(meta);
+  // console.log(meta);
   const { page, pageCount } = meta.pagination;
   const pages = Array.from({ length: pageCount }, (_, index) => {
     return index + 1;
